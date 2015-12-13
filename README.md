@@ -7,7 +7,7 @@ Get a list of available Wifi connections
 ## Installation
 
 ```
-npm install react-native-wifi-checker
+npm install --save react-native-wifi-checker
 ```
 
 ### Android
@@ -58,7 +58,7 @@ public class MainActivity extends Activity implements DefaultHardwareBackBtnHand
 }
 ```
 
-## iOS
+### iOS
 
 So I have to check ObjectiveC right?
 
