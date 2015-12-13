@@ -54,17 +54,4 @@ public class WifiCheckerModule extends ReactContextBaseJavaModule {
             promise.reject("Can not scan for wifi");
         }
     }
-
-    class WifiModel {
-        public String SSID;
-        public String BSSID;
-        public String capabilities;
-        public int level;
-        public WifiModel(String SSID, String BSSID, String capabilities, int level) {
-            this.SSID = SSID;
-            this.BSSID = BSSID;
-            this.capabilities = capabilities;
-            this.level = level;
-        }
-    }
 }

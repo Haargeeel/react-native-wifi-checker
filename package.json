@@ -1,10 +1,14 @@
 {
   "name": "react-native-wifi-checker",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Get a list of available Wifi connections",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:Haargeeel/react-native-wifi-checker.git"
   },
   "author": "Ray Gläske",
   "license": "MIT"
